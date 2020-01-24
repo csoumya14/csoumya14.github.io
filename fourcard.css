@@ -1,0 +1,112 @@
+body {
+  font-family: Poppins, sans-serif;
+  width: 100rem;
+  height: 50rem;
+  text-align: center;
+}
+/* Mobile styles */
+@media only screen and(min-width: 360px) and (max-width: 959px) {
+  body {
+    background-color: green;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 960px) {
+  body {
+    background-color: #b2d6ff; /* Blue */
+  }
+}
+.topSection {
+  padding-top: 10px 20px;
+}
+.heading {
+  margin: 0;
+}
+#first {
+  font-weight: 100;
+  font-size: 36px;
+  color: hsl(229, 6%, 66%);
+  letter-spacing: 0.5px;
+}
+#second {
+  font-size: 36px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  letter-spacing: 0.5px;
+  margin-top: -15px;
+}
+#topPara {
+  font-weight: 100;
+  display: inline-block;
+  margin-top: 2px;
+  width: 29%;
+  font-size: 15px;
+  color: hsl(199, 4%, 77%);
+  line-height: 1.5em;
+  letter-spacing: 0.1px;
+}
+#supervisor {
+  text-align: left;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border-top: solid 4px hsl(180, 62%, 55%);
+  width: 260px;
+  height: 200px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 410px;
+  left: 295px;
+}
+#teamBuilder {
+  text-align: left;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border-top: solid 4px hsl(0, 78%, 62%);
+  width: 260px;
+  height: 200px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 260px;
+  left: 650px;
+}
+#karma {
+  text-align: left;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border-top: solid 4px hsl(34, 97%, 64%);
+  width: 260px;
+  height: 200px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 650px;
+  top: 540px;
+}
+#calculator {
+  text-align: left;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border-top: solid 4px hsl(212, 86%, 64%);
+  width: 260px;
+  height: 200px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 1005px;
+  top: 410px;
+}
+.cardHeading {
+  font-weight: 600;
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+}
+.cardText {
+  font-weight: 100;
+  color: hsl(199, 4%, 77%);
+  font-size: 13px;
+  line-height: 1.5em;
+  margin-top: -5px;
+}
+.cardImage {
+  float: right;
+  position: relative;
+  margin-top: 20px;
+}
